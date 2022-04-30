@@ -1,5 +1,24 @@
 const url = "https://blockchain.info/ticker";
 
+// Méthode AXIOS télécharge npm install axios 
+//  function getPrice() {
+
+//   axios.get(url)
+
+//     .then(function (datas) {
+//       console.log(datas);
+//       document.querySelector('span').textContent = datas.data.EUR.last;
+
+//     })
+//     .catch(function (error) {
+
+//       alert('Un problème est survenu!')
+//     })
+
+// }
+
+// setInterval(getPrice, 1000);
+
 // Nouvelle méthode FETCH
 async function getPrice() {
 
