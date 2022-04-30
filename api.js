@@ -22,7 +22,6 @@ async function getPrice() {
 
 }
 
-getPrice();
 setInterval(getPrice, 1000);
 
 // Ancienne méthode
